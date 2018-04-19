@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {  Route } from 'react-router-dom';
-import {Home} from './pages/index';
+import {Home, User, Admin} from './pages/index';
 
 export default  class App extends React.Component {
   public render() {
@@ -15,14 +15,3 @@ export default  class App extends React.Component {
 }
 
 
-const Admin = () => {
-  return (
-     <div>admin</div>
-  )
-}
-
-const User = () => {
-  return (
-      <div>User</div>
-  );
-}
